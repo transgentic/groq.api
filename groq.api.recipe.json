@@ -1,10 +1,22 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.0",
+  "version": "1.0.1",
   "repository": "groq.api",
   "providerType": "api",
   "id": "api_groq",
   "title": "Groq",
   "protocol": "openai",
-  "baseUrl": "https://api.groq.com/openai/v1"
+  "baseUrl": "https://api.groq.com/openai/v1",
+  "speech": {
+    "operation": "openai-speech",
+    "models": [
+      "canopylabs/orpheus-v1-english"
+    ],
+    "voices": [
+      "troy",
+      "hannah",
+      "austin"
+    ],
+    "responseFormat": "wav"
+  }
 }
