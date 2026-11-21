@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "version": "1.0.0",
+  "repository": "groq.api",
+  "providerType": "api",
+  "id": "api_groq",
+  "title": "Groq",
+  "protocol": "openai",
+  "baseUrl": "https://api.groq.com/openai/v1"
+}
